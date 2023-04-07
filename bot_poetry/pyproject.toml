@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bot"
+version = "0.1.0"
+description = ""
+authors = ["Balorum <Remeshevskyi.Nikita03@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+colorama = "0.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
